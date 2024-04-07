@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.container{
+    flex:1
+}
+.navbar{
+    height :5rem;
+}
+.fa-brands{
+  color: #fe424d;
+  font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    
+}
+.f-info-links,.f-info-socials,.f-info-brand{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: #222222;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+.listing-card{
+    border: none !important;
+    margin-bottom: 2 rem;
+
+}
+.card-img-top{
+    border-radius:1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+    
+}
+.card-text{
+    font-weight: 200 !important;
+
+}
+
+.images-h {
+    position: relative;
+    display: inline-block;
+}
+
+.images-h img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.5s ease;
+}
+
+.images-h:hover img {
+    filter: blur(5px); /* Apply blur effect on hover */
+}
+
+.images-h .details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.5s ease;
+}
+
+.images-h:hover .details {
+    opacity: 1; /* Show the text on hover */
+}
+
+.add-btn{
+   
+    margin-bottom: 1.9vh;
+}
+.edit-btn{
+    margin-bottom: 1.9vh;
+}
+.show-img{
+    height: 30vh;
+
+}
+.btns{
+    display: flex;
+    
+}
+
+.btn-search{
+    background-color: #fe424d !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+   
+}
+.btn-search:hover{
+    background-color: #fe424d !important;
+    color: #fff !important;
+}
+
+.btn-search i{
+    margin-right: 0.5rem !important;
+}
+
+.search-input{
+    border-radius: 25px !important;
+    padding: 0.5rem  1.5rem 0.5rem 3rem !important;
+}
