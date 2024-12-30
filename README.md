@@ -57,6 +57,9 @@ This project is a web application designed to connect potential roommates and ma
 ### Prerequisites  
 - Node.js and npm installed on your system.  
 - MongoDB (local or cloud instance).  
-- A Cloudinary account for image storage.  
+- A Cloudinary account for image storage.
+
+### Deployed Link
+[https://flat-mates.onrender.com/listings](https://flat-mates.onrender.com/listings)
 
 
