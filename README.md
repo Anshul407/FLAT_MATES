@@ -2,6 +2,11 @@
 
 ### 🚀 Overview  
 This project is a web application designed to connect potential roommates and manage accommodation listings. It leverages modern web technologies and third-party tools to ensure security, scalability, and a seamless user experience.  
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/f92adbe5-cf4c-455e-89f2-1ed4e452abea" />
+
+### Web-Link
+- [https://flat-mates.onrender.com/listings](https://flat-mates.onrender.com/listings)
+
 
 ---
 
@@ -51,15 +56,14 @@ This project is a web application designed to connect potential roommates and ma
 | `passport-local-mongoose`     | Simplifies integration of Passport.js with Mongoose.   |  
 
 ---
-
-## 📋 Installation Guide  
+ 
 
 ### Prerequisites  
 - Node.js and npm installed on your system.  
 - MongoDB (local or cloud instance).  
 - A Cloudinary account for image storage.
 
-### Deployed Link
-[https://flat-mates.onrender.com/listings](https://flat-mates.onrender.com/listings)
+
+
 
 
